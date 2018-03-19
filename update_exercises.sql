@@ -1,0 +1,22 @@
+-- USE codeup_test_db;
+-- SELECT name FROM albums;
+-- UPDATE albums
+-- SET sales * 10
+-- WHERE *
+--
+-- SELECT sales FROM albums
+--
+--
+--
+-- SELECT name FROM albums WHERE release_date < '1980'
+-- UPDATE albums
+-- SET release_dates < '1980' -'1000'
+--
+-- SELECT name FROM albums WHERE relesase_date < '1880'
+--
+-- SELECT name FROM albums WHERE artists = 'Micheal Jackson'
+-- UPDATE albums
+-- SET artist = 'Peter Jackson'
+-- WHERE artist = 'Micheal Jackson'
+--
+-- SELECT name FROM albums WHERE artists = 'Percy Jackson'

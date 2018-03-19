@@ -1,11 +1,12 @@
 USE codeup_test_db;
+-- TRUNCATE albums;
 INSERT INTO codeup_test_db (artist, name, release_date, sales, genre)
-VALUES ('Micheal Jackson', 'Thriller', '1982', '66,000,000', 'pop')
-       ('AC/DC', 'Back in Black', '1980', '50,000,000', 'Rock')
-       ('Pink Floyd', 'The Dark Side of the Moon', '1973', '45,000,000', 'Rock')
-       ('Meat Loaf', 'Bat Out of Hell', '1977', '43,000,000', 'Rock')
-       ('Whitney Houston', 'The Bodyguard', '1992', '42,000,000', 'Pop')
-       ('Eagles', 'Their Greatest Hits', '1976', '42,000,000', 'Rock')
+VALUES ('Micheal Jackson', 'Thriller', 1982, 66,000,00, 'pop')
+       ('AC/DC', 'Back in Black', 1980, 50,000,000, 'Rock')
+       ('Pink Floyd', 'The Dark Side of the Moon', 1973, 45,000,000, 'Rock')
+       ('Meat Loaf', 'Bat Out of Hell', 1977, 43,000,000, 'Rock')
+       ('Whitney Houston', 'The Bodyguard', 1992, 42,000,000, 'Pop')
+       ('Eagles', 'Their Greatest Hits', 1976, 42,000,000, 'Rock')
        ('Bee Gees', 'Saturday Night Fever', '1977', '40,000,000', 'Disco')
        ('Fleetwood Mac', 'Rumours', '1977', '40,000,000', 'Rock')
        ('Jim Jacobs', 'Grease: the Original Soundtrack', '1978', '38,000,000', 'Soundtrack')
