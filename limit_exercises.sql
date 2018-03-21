@@ -5,5 +5,7 @@ USE employees;
 -- LIMIT 10;
 
 SELECT * FROM employees
-WHERE birth_date LIKE '%12-25%'
+WHERE hire_date LIKE '199%'
+  AND birth_date LIKE '%-12-25'
+  ORDER BY birth_date, hire_date DESC
 LIMIT 5;
