@@ -41,6 +41,19 @@ ON e.emp_no = dm.emp_no
 WHERE dm.to_date = '9999-01-01'
 ORDER BY d.dept_name;
 
+SELECT title FROM title
+WHERE emp_no = (
+SELECT emp_no FROM employees
+WHERE first_name = 'Aamod'
+);
+
+SELECT first_name, last_name
+FROM employees
+WHERE emp_no IN (
+SELECT emp_no FROM dept_manager
+WHERE to_date > CURDATE()
+AND gender = 'F');
+
 
 
 
